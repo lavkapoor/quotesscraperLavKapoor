@@ -41,8 +41,7 @@ df.to_csv("verify_output.csv", index=False)
 print(f"Rows: {len(df)}  |  Columns: {list(df.columns)}")
 df
 
-# --- Installeer Supabase client ---
-!pip install -q supabase requests beautifulsoup4 pandas
+
 
 # --- Import libraries ---
 import requests
